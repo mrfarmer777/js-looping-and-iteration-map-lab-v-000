@@ -7,5 +7,7 @@ function lowerCaseDrivers(drvs){
 }
 
 function nameToAttributes(drvs){
-  
+  return drvs.map(function (drv){
+    drv.split
+  })
 }
