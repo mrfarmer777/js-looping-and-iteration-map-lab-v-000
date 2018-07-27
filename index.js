@@ -8,6 +8,8 @@ function lowerCaseDrivers(drvs){
 
 function nameToAttributes(drvs){
   return drvs.map(function (drv){
-    drv.split
-  })
+    first=drv.split(" ")[0];
+    last=drv.split(" ")[1];
+    return Object.assign({},{firstName: first},{lastName: last});
+  });
 }
