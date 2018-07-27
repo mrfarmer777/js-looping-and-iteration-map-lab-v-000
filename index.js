@@ -13,3 +13,9 @@ function nameToAttributes(drvs){
     return Object.assign({},{firstName: first},{lastName: last});
   });
 }
+
+function attributesToPhrase(drvs){
+  return drvs.map(function (drv){
+    return `${drv.name} is from ${drv.hometown}`;
+  });
+}
